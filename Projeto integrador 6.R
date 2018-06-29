@@ -144,9 +144,6 @@ minha_media <- function(x, na.rm = F){
 #Teste
 minha_media(iris$Sepal.Length)
 
-#### Mediana
-#Não consegui... Me ajuda?
-
 #### Variância 
 minha_variancia <- function(x, na.rm = F){
   med = sum(x) / length(x)
